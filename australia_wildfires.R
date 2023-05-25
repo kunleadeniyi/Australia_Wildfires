@@ -3,7 +3,6 @@ library(mapdata)
 library(stringr)
 
 # read data
-setwd("/Users/ayokunle/Documents/R Scripts/graphical_assessment/")
 fia <- read.csv("fire_nrt_M6_96062.csv", sep=",")
 fia_original <- fia
 
